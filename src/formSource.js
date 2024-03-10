@@ -42,36 +42,98 @@ export const userInputs = [
     },
   ];
   
-  export const productInputs = [
+  export const hotelInputs = [
     {
-      id: 1,
-      label: "Title",
+      id: "name",
+      label: "Name",
       type: "text",
-      placeholder: "Apple Macbook Pro",
+      placeholder: "My Hotel",
     },
     {
-      id: 2,
+      id: "phone_number",
+      label: "Phone Number",
+      type: "number",
+      placeholder: "+213555882951",
+    },
+    {
+      id: "city",
+      label: "City",
+      type: "text",
+      placeholder: "Constantine",
+    },
+    {
+      id: "street_Address",
+      label: "Street Address",
+      type: "text",
+      placeholder: "elton st, 216",
+    },
+    {
+      id: "email",
+      label: "Email",
+      type: "text",
+      placeholder: "example@gmail.com",
+    },
+    {
+      id: "postal_Code",
+      label: "Postal Code",
+      type: "number",
+      placeholder: "25000",
+    },
+    {
+      id: "description",
       label: "Description",
       type: "text",
-      placeholder: "Description",
+      placeholder: "description",
     },
     {
-      id: 3,
-      label: "Category",
+      id: "country",
+      label: "country",
       type: "text",
-      placeholder: "Computers",
+      placeholder: "Algeria",
     },
     {
-      id: 4,
+      id: "latitude",
+      label: "latitude",
+      type: "number",
+      placeholder: "14",
+    },
+    {
+      id: "longitude",
+      label: "longitude",
+      type: "number",
+      placeholder: "56",
+    },
+    {
+      id: "timezone",
+      label: "timezone",
+      type: "text",
+      placeholder: "GMT+1",
+    }
+  ];
+  
+  export const roomInputs = [
+    {
+      id: "title",
+      label: "Title",
+      type: "text",
+      placeholder: "2 bed room",
+    },
+    {
+      id: "desc",
+      label: "Description",
+      type: "text",
+      placeholder: "King size bed, 1 bathroom",
+    },
+    {
+      id: "price",
       label: "Price",
-      type: "text",
+      type: "number",
       placeholder: "100",
     },
     {
-      id: 5,
-      label: "Stock",
-      type: "text",
-      placeholder: "in stock",
+      id: "maxPeople",
+      label: "Max People",
+      type: "number",
+      placeholder: "2",
     },
   ];
-  

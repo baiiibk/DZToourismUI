@@ -1,11 +1,11 @@
-import "./new.scss";
+import "./newRoom.scss";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
 import DriveFolderUploadOutlinedIcon from "@mui/icons-material/DriveFolderUploadOutlined";
 import { useState } from "react";
 import axios from "axios";
 
-const NewHotel = ({ inputs, title }) => {
+const NewRoom = ({ inputs, title }) => {
   const [file, setFile] = useState("");
   const [info, setInfo] = useState({});
 
@@ -91,4 +91,4 @@ const NewHotel = ({ inputs, title }) => {
   );
 };
 
-export default NewHotel;
+export default NewRoom;
